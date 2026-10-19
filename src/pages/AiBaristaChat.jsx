@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import api from '../services/api';
-import './AIBaristaChat.css';
+import './AiBaristaChat.css';
 
 const AIBaristaChat = () => {
   const [isOpen, setIsOpen] = useState(false);
