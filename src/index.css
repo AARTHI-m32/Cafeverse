@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cafe-light: #f8f5f2;
+  --color-cafe-dark: #3e2723;
+}
+
+body {
+  @apply bg-cafe-light text-cafe-dark antialiased font-sans;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
